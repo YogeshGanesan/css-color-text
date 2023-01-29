@@ -1,0 +1,118 @@
+/* Color */
+.ace{
+  border-style: solid;
+  border-color: red;
+}
+.king{
+border-style:dotted;
+  border-color:rgb(0, 0, 255);
+}
+.jack{
+border-style:double;
+  border-color:gold;
+}
+.bishop{
+border-style:double;
+  border-color:#005;
+}
+.kumar {
+color:rgba(0,255,0,1-1.5);
+background-color:rgba(0,255,0,0.5);
+}
+.night{
+color:#6a5acd;
+}
+.huskin{
+color:hsl(0,75%,20%,0.6);
+background-color:hsl(30,40%,80%,0.2);
+}
+/* Text-align */
+.som{
+color:violet;
+}
+.sam{
+text-align:right;
+}
+.sum{
+text-align:left;
+}
+.sem{
+text-align-last:justify;
+}
+.sbm{
+text-align:center;
+}
+.super >p{
+  direction: rtl;
+  unicode-bidi:bidi-override;
+}
+span{
+vertical-align:30px;
+}
+/* text-decoration */
+.low >p{
+ text-decoration-line:underline;
+ }
+ .high >p{
+ text-decoration-line:underline;
+ text-decoration-color:red;
+ text-decoration-style:double;
+ }
+ .pressure >p{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color:red;
+ }
+ .volume >p{
+	 text-decoration-line: underline;
+     text-decoration-thickness: 3px;
+ }
+ .low >p{
+ text-decoration:underline red dashed 2px;
+ }
+ .him{
+ text-transform:uppercase;
+ }
+.his{
+text-transform:lowercase;
+}
+.her{
+text-transform:capitalize;
+}
+/* text-spacing */
+.they >p{
+text-indent:100px;
+}
+.their >p{
+letter-spacing:10px;
+}
+.them >p{
+word-spacing:10px;
+}
+.when >p{
+white-space:wrap;
+}
+.while >p{
+white-space:nowrap;
+}
+.word >p{
+	font-size:40px;
+	text-align:center;
+  text-shadow: 10px 0 2px red, 0 10px 1px yellow,-10px 0 1px brown,0 -10px 2px gold;
+}
+.respond >p{
+	font-size:40px;
+	text-align:center;
+	border: 2px solid ;
+	background-color:#459;
+	height:70px;
+	width:150px;
+	margin:0 auto;
+	box-shadow:5px 5px 3px 8px red,10px 10px 4px 15px pink;
+
+}
+.shadow{
+ border-bottom:5px solid yellow;
+  border-top:5px solid yellow;
+
+}
